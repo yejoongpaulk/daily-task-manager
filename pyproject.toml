@@ -4,7 +4,9 @@ version = "0.1.0"
 description = "CLI application intended to assist users in managing daily tasks."
 readme = "README.md"
 requires-python = ">=3.11"
-dependencies = []
+dependencies = [
+    "typer>=0.15.1",
+]
 
 [project.scripts]
 daily-task-manager = "daily_task_manager:main"
